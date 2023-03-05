@@ -1,0 +1,40 @@
+@import "variables";
+
+@import "custom";
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@import "mixins";
+@import "resets";
+
+*::selection {
+  background-color: $primary;
+  color: white;
+}
+
+body {
+  background-color: $light;
+  color: $dark;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.font-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
+.error-message {
+  background: linear-gradient(to right, $danger, transparent, transparent);
+  border: 1px solid $danger;
+}

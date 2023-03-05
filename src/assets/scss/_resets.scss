@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  @include transition(125ms);
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+input, button {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
